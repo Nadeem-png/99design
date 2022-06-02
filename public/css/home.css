@@ -531,7 +531,7 @@ th {
     font-style: normal;
     text-decoration: inherit;
     display: inline-block;
-    speak: none;
+    
     zoom: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
@@ -10501,7 +10501,7 @@ body:after {
 .button--chameleon:before {
     transition-duration: .15s;
     transition-timing-function: ease-out;
-    transition-proprty: opacity, visibility;
+    transition-property: opacity, visibility;
     content: '';
     position: absolute;
     left: 0;
@@ -10565,7 +10565,7 @@ body[data-modal-status=active] {
 
 .classic-modal__inner,
 .classic-modal__overlay {
-    -webkit-transform: translateZ(0)
+    transform: translateZ(0)
 }
 
 .classic-modal__container {
@@ -10651,7 +10651,7 @@ body[data-modal-status=active] {
     right: 0;
     visibility: hidden;
     overflow: auto;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)"
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)"
 }
 
 .classic-modal__container[data-modal-status=active] .classic-modal__overlay,
@@ -11484,7 +11484,7 @@ body[data-modal-status=active] {
     display: block;
     overflow: hidden;
     padding: 0;
-    vertical-align: middle
+
 }
 
 .select:focus {
