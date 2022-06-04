@@ -24,6 +24,19 @@
 
 </head>
     <body>
+  
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
     <!-- <header class="site-header site-header--static site-header--signed-out">
                         <div class="site-header__inner1">
                             <div class="site-header__inner2">
@@ -88,6 +101,8 @@
     ></div
   ></header
 > -->
+<div id="main">
+  
 
 <div data-promo-bar="true" data-oc-name="left right" data-globalnavui="true" data-globalnavui-userrole="logged-out" data-trackable-section="off-canvas-nav" data-oc-offset-admin-bar="true" class="oc-wrapper ">
         <div class="oc-content--main" data-oc-canvas="left right">
@@ -98,7 +113,17 @@
                     <header class="site-header site-header--static site-header--signed-out">
                         <div class="site-header__inner1">
                             <div class="site-header__inner2">
-                                <div class="site-header__item site-header__item--left-oc-trigger"><button class="site-header__left-oc-trigger" type="button" data-oc-trigger="left" aria-label="Menu"></button></div>
+                                
+                                <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()" class="mr-4">|||</span>
                                 <div class="site-header__item site-header__item--branding">
                                     <a class="site-header__site-logo" href="/" title="99designs by Vista">
                                         <div class="site-header__site-logo__image site-header__site-logo__image--en" aria-label="99designs by Vista"></div>
@@ -283,5 +308,5 @@
             </div>
         </footer>
 
-
+</div>
 </body>

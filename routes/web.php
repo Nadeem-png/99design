@@ -25,3 +25,6 @@ Route::get('/contact', function () {
 Route::get('/team', function () {
     return view('team');
 });
+Route::get('/testimonials', function () {
+    return view('testimonials');
+});

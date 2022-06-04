@@ -43,7 +43,7 @@
     
 >
     <div class="design-figure__image-container">
-        <img class="design-figure__image-container__image" alt="design by !s" title="by !s" srcset="https://99designs-start-assets.imgix.net/images/homepage/hero/hero-02-61c842fa26.png?auto=format&amp;ch=Width%2CDPR&amp;w=680&amp;h=480&amp;dpr=1 1x, https://99designs-start-assets.imgix.net/images/homepage/hero/hero-02-61c842fa26.png?auto=format&amp;ch=Width%2CDPR&amp;w=680&amp;h=480&amp;dpr=2 2x" src="https://99designs-start-assets.imgix.net/images/homepage/hero/hero-02-61c842fa26.png?auto=format&amp;ch=Width%2CDPR&amp;w=680&amp;h=480&amp;dpr=1" />
+        <img class="design-figure__image-container__image" alt="design by !s" title="by !s" srcset="https://99designs-start-assets.imgix.net/images/homepage/hero/hero-02-61c842fa26.png?auto=format&amp;ch=Width%2CDPR&amp;w=680&amp;h=480&amp;dpr=1 1x, https://99designs-start-assets.imgix.net/images/homepage/hero/hero-02-61c842fa26.png?auto=format&amp;ch=Width%2CDPR&amp;w=680&amp;h=480&amp;dpr=2 2x" src="{{asset('images/hero1.png')}}" />
 
 
             <div class="design-figure__image-container__additional_content">
