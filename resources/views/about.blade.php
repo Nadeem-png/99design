@@ -97,6 +97,7 @@ we’re dedicated to helping small businesses thrive through expert design.
                 
             </div>
         </div>
+     
 
 @endsection
 @section('title','about')

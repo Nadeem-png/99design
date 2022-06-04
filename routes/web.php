@@ -28,3 +28,7 @@ Route::get('/team', function () {
 Route::get('/testimonials', function () {
     return view('testimonials');
 });
+Route::get('/career', function () {
+    return view('career');
+});
+

@@ -214,7 +214,7 @@ function closeNav() {
                                 <ul class="footer-links-menu__items">
                                     <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/about">About</a></li>
                                     <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/contact">Contact</a></li>
-                                    <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/about/jobs">Careers</a></li>
+                                    <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/career">Careers</a></li>
                                     <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/about/meet-the-team">Team</a></li>
                                     <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/about/press-releases">Press releases</a></li>
                                     <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/about/media">In the media</a></li>
