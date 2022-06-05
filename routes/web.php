@@ -37,4 +37,7 @@ Route::get('/media', function () {
 Route::get('/press', function () {
     return view('press');
 });
+Route::get('/nonprofit', function () {
+    return view('nonprofit');
+});
 

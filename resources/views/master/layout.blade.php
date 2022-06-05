@@ -130,6 +130,7 @@ function closeNav() {
   <a href="/team"><span></span> Team</a>
   <a href="/media"><span></span>Media</a>
   <a href="/testimonials"><span></span>Testimonials<a>
+  <a href="/nonprofit"><span></span>Non-Profit<a>
   <a href="/press"><span></span>Press-Release</a>
 
   
