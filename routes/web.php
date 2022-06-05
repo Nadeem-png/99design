@@ -31,4 +31,7 @@ Route::get('/testimonials', function () {
 Route::get('/career', function () {
     return view('career');
 });
+Route::get('/media', function () {
+    return view('media');
+});
 

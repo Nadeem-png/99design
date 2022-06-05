@@ -1,5 +1,45 @@
 @extends('master.layout')
 @section('my_content')
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding:10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  text-align:center;
+
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
 <div class="container mt-4">
 <div class="artwork--hero__container__text" style="color:#cbbba5">
             <h1 class="heading  heading--h1 heading--chameleon heading--with--divider">
@@ -123,8 +163,69 @@ Check out our perks and benefits here.</a>
 </div>
         </div>
 
+<div class="container mt-5 mb-5">
 
+<button class="accordion mb-3"> Data Engineer
+ <span class="ml-5">  Development</span> <span class="ml-5">Richmond</span></button>
+    
 
+<div class="panel mt-3">
+<div class="artwork--hero__container__text" style="color:#fe5f50">
+            <h5 class="heading heading--h5 heading--chameleon heading--with--divider">
+            Data Engineer</h5>
+            <p class="paragraph paragraph--offset paragraph--narrow paragraph--root">
+            Development
+</p>
+<p class="paragraph paragraph--offset paragraph--narrow paragraph--root">
+            Richmond
+</p>
+<p class="text-dark">
+Are you curious, unafraid to dive head first into different product domains? Apply now to partner with product teams and data analysts to build data models!
+</p>
+<button class="btn font-weight-bold btn-primary px-4 py-2 ">Apply</button>
+<p class="text-dark">By making your application to 99designs, you accept that we store your information in accordance with our privacy policy.</p>
+</div>
+</div>
+
+<button class="accordion mb-3"> Data Engineer
+ <span class="ml-5">  Development</span> <span class="ml-5">Richmond</span></button>
+    
+
+<div class="panel mt-3">
+<div class="artwork--hero__container__text" style="color:#fe5f50">
+            <h5 class="heading heading--h5 heading--chameleon heading--with--divider">
+            Data Engineer</h5>
+            <p class="paragraph paragraph--offset paragraph--narrow paragraph--root">
+            Development
+</p>
+<p class="paragraph paragraph--offset paragraph--narrow paragraph--root">
+            Richmond
+</p>
+<p class="text-dark">
+Are you curious, unafraid to dive head first into different product domains? Apply now to partner with product teams and data analysts to build data models!
+</p>
+<button class="btn font-weight-bold btn-primary px-4 py-2 ">Apply</button>
+<p class="text-dark">By making your application to 99designs, you accept that we store your information in accordance with our privacy policy.</p>
+</div>
+</div>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 
 @endsection
 @section('title','contact')

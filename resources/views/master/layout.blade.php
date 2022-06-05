@@ -12,6 +12,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    
 
     
 <!-- <link rel="stylesheet" href="css/style.css"> -->
@@ -116,10 +118,20 @@ function closeNav() {
                                 
                                 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="/"><span></span> Home</a>
+  <a href="#"> <span></span> Browser Categories</a>
+  <a href="#"> <span></span>How its Works</a>
+
+  <a href="#"><span></span> Agencies</a>
+  <hr>
+  <a href="/about"><span></span> About</a>
+  <a href="/contact"> <span></span> Contact</a>
+  <a href="/career"> <span></span>Careers</a>
+
+  <a href="/team"><span></span> Team</a>
+  <a href="/media"><span></span>Media</a>
+
+  
 </div>
 
 <!-- Use any element to open the sidenav -->
@@ -193,17 +205,6 @@ function closeNav() {
     @yield('my_content')
 
    
-    <section class="section section--dark section--collapsed">
-
-
-            <div class="row">
-                <div class="column">
-                    <div class="section-divider"></div>
-                </div>
-            </div>
-
-
-        </section>
         <footer role="contentinfo">
             <div class="site-footer">
                 <div class="site-footer__navigation">
@@ -215,9 +216,9 @@ function closeNav() {
                                     <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/about">About</a></li>
                                     <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/contact">Contact</a></li>
                                     <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/career">Careers</a></li>
-                                    <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/about/meet-the-team">Team</a></li>
-                                    <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/about/press-releases">Press releases</a></li>
-                                    <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/about/media">In the media</a></li>
+                                    <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/team">Team</a></li>
+                                    <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/media">Press releases</a></li>
+                                    <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/media">In the media</a></li>
                                     <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/testimonials">Testimonials</a></li>
                                     <li class="footer-links-menu__items__item"><a class="footer-links-menu__items__item__link" href="/nonprofits">99nonprofits</a></li>
                                 </ul>
