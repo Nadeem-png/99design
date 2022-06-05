@@ -127,9 +127,10 @@ function closeNav() {
   <a href="/about"><span></span> About</a>
   <a href="/contact"> <span></span> Contact</a>
   <a href="/career"> <span></span>Careers</a>
-
   <a href="/team"><span></span> Team</a>
   <a href="/media"><span></span>Media</a>
+  <a href="/testimonials"><span></span>Testimonials<a>
+  <a href="/press"><span></span>Press-Release</a>
 
   
 </div>
@@ -310,4 +311,21 @@ function closeNav() {
         </footer>
 
 </div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </body>

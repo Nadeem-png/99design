@@ -34,4 +34,7 @@ Route::get('/career', function () {
 Route::get('/media', function () {
     return view('media');
 });
+Route::get('/press', function () {
+    return view('press');
+});
 
